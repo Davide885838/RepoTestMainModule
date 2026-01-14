@@ -1,10 +1,12 @@
-﻿namespace RepoTestMainModule
+﻿using TestSubModule1;
+
+namespace RepoTestMainModule
 {
     public class TestMainModuleClass
     {
         public string GetMessage()
         {
-            return "Hello from TestMainModuleClass";
+            return new TestSubModuleClass().GetGreeting();
         }
     }
 }

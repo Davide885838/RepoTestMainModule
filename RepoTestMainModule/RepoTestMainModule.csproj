@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RepoTestSubModule1\TestSubModule1\TestSubModule1.csproj" />
+  </ItemGroup>
+
 </Project>
